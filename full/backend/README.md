@@ -90,4 +90,4 @@ Controllers handle the logic for each route, interacting with MongoDB to perform
 Seeding the Database
 To seed the database with initial data, run:
 
-node seed.js - This will populate the database with predefined products.
+node seed.js - This will populate the database with predefined products
