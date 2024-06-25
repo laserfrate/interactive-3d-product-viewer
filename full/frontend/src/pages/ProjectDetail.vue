@@ -20,7 +20,7 @@ export default {
       project: {
         name: 'Sample Project',
         description: 'This is a detailed description of the sample project.',
-        modelUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb', // Replace with actual model URL
+        modelUrl: 'https://modelviewer.dev/shared-assets/models/Astronaut.glb',
       },
     };
   },

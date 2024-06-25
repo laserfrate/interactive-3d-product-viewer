@@ -3,8 +3,8 @@ import { createStore } from 'vuex';
 
 export default createStore({
   state: {
-    products: [],  // State property to store products
-    user: null,    // State property to store user information
+    products: [],
+    user: null,
   },
   mutations: {
     // Mutation to set products
@@ -20,7 +20,7 @@ export default createStore({
     // Action to fetch products from an API
     async fetchProducts({ commit }) {
       try {
-        const response = await axios.get('http://localhost:3000/api/products');  // Ensure the correct backend URL
+        const response = await axios.get('http://localhost:3000/api/products');
         commit('SET_PRODUCTS', response.data);
       } catch (error) {
         console.error('Error fetching products:', error);
@@ -32,7 +32,7 @@ export default createStore({
     },
   },
   modules: {
-    // Example of a Vuex module
+    // Examples ( not used . just for learning )
     cart: {
       state: {
         items: [],

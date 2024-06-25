@@ -28,8 +28,8 @@
           if (!response.ok) {
             throw new Error('Failed to add embed code');
           }
-          this.embedCode = ''; // Clear the textarea after submission
-          this.$emit('codeAdded'); // Emit an event to notify the parent component
+          this.embedCode = '';
+          this.$emit('codeAdded');
         } catch (error) {
           console.error('Error adding embed code:', error);
         }
